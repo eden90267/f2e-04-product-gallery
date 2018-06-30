@@ -1,4 +1,6 @@
-# gulp-bs4-jade-template
+# f2e-04-product-gallery
+
+The F2E - 前端修練精神時光屋 - Week 4 - 產品列表 product gallery
 
 ## 安裝環境
 
