@@ -154,7 +154,7 @@ main {
   }
 
   .item-3 {
-
+    margin-bottom: 0;
     & > h2 {
       top: -50px;
       right: 0;
@@ -195,7 +195,7 @@ main {
   }
 
   .item-4 {
-
+    margin-bottom: 0;
     & > h2 {
       transform: rotate(-90deg);
       top: 43px;
@@ -240,41 +240,71 @@ main {
   }
 
   .item-5 {
-
     & > h2 {
+      top: 53px;
+      left: 0;
     }
 
     & > h3 {
+      right: 0;
+      top: 0;
+      transform: translateX(102%);
     }
 
     & > small {
+      top: 50%;
+      left: 25%;
+      transform: translateY(-88%);
     }
 
     & > .item_pic {
+      display: flex;
+      justify-content: flex-end;
       & > img {
+        width: 50%;
+        height: 50%;
+        transform: scaleX(-1);
       }
     }
 
     & > .item_block {
+      display: none;
     }
 
     & > .item_border {
+      height: 100px;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
     }
 
     & > .item_slash {
+      top: 0;
+      left: 10%;
+      transform: translateY(-46%);
     }
 
   }
 
   .item-6 {
-
+    margin-top: 200px;
+    margin-bottom: 0;
     & > h2 {
+      top: 0;
+      right: 0;
+      transform: translateY(-100%);
     }
 
     & > h3 {
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%) translateY(125%);
     }
 
     & > small {
+      top: 50%;
+      left: 0;
+      transform: translateX(-100%) translateY(-85%);
     }
 
     & > .item_pic {
@@ -283,39 +313,64 @@ main {
     }
 
     & > .item_block {
+      bottom:0;
+      left: 0;
+      transform: translateX(-25%);
     }
 
     & > .item_border {
+      width: 480px;
+      bottom: 0;
+      right: 0;
+      transform: translateY(25%);
     }
 
     & > .item_slash {
+      display: none;
     }
 
   }
 
   .item-7 {
-
+    margin-top: -200px;
+    margin-bottom: 0;
     & > h2 {
+      top: 63px;
+      right: 26%;
+      transform: rotate(-270deg);
     }
 
     & > h3 {
+      top: 0;
+      left: 0;
+      transform: translateY(-100%);
     }
 
     & > small {
+      bottom: -15px;
+      right: 121px;
     }
 
     & > .item_pic {
       & > img {
+        width: 50%;
       }
     }
 
     & > .item_block {
+      bottom: 0;
+      right: 0;
+      transform: translateX(-50%);
     }
 
     & > .item_border {
+      top: 0;
+      left: 50%;
+      transform: translateX(-75%) translateY(-25%);
     }
 
     & > .item_slash {
+      display: none;
     }
 
   }
